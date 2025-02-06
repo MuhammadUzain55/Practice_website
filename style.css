@@ -12,24 +12,60 @@
 }
 
 .nav {
-    height: 80px;
+    height: 90px;
     width: 100%;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 6vw;
+    padding: 0 7vw;
 
 }
 
 .about-nav {
     display: flex;
+    align-items: center;
     gap: 2vw;
     color: #ffff;
-
 }
 
 .nav img {
-    width: 10vmax;
-
+    width: 11vmax;
 }
+
+.nav-button {
+    display: flex;
+    gap: 1vw;
+}
+
+.order-button {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 0.9vw 1vw;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffff;
+    gap: 0.5vw;
+}
+
+.order-button button {
+    border-radius: 50%;
+    padding: 0.2vw 0.2vw;
+    background-color: #ffff;
+    border: none;
+}
+.order-button img {
+    width: 1.2vw;
+    display: flex;
+    align-items: center;
+}
+
+.franchise-button {
+    padding: 0.9vw 1.2vw;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffff;
+}
+
