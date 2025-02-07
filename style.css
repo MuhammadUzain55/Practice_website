@@ -22,6 +22,10 @@
 
 }
 
+.nav i {
+    display: none;
+}
+
 .about-nav {
     display: flex;
     align-items: center;
@@ -30,7 +34,7 @@
 }
 
 .nav img {
-    width: 11vmax;
+    width: 11vw;
 }
 
 .nav-button {
@@ -62,10 +66,33 @@
 }
 
 .franchise-button {
-    padding: 0.9vw 1.2vw;
+    padding: 1vw 1vw;
     border: 1px solid #ffff;
     border-radius: 50px;
     text-decoration: none;
     color: #ffff;
+}
+
+@media only screen and (max-width:600px) {
+    .about-nav h4 {
+        display: none;
+    }
+
+    .franchise-button {
+        display: none;
+    }
+    .nav img {
+        width: 30vw;
+    }
+    .nav i {
+        display: block;
+    }
+    .order-button {
+        /* padding: 0.5vw 1vw; */
+    }
+    .order-button img {
+        width: 5vw;
+    }
+    
 }
 
