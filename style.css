@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'gilroy';
 }
 
 .main-contianer {
     height: 100%;
     width: 100%;
     position: relative;
+    
 }
+
+/********************** Navbar css ***********************/
 
 .nav {
     height: 90px;
@@ -19,7 +21,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 7vw;
-
+    font-family: "Inter", serif;
 }
 
 .nav i {
@@ -33,7 +35,8 @@
     color: #ffff;
 }
 
-.nav img {
+
+.nav .logo-img {
     width: 11vw;
 }
 
@@ -59,7 +62,7 @@
     background-color: #ffff;
     border: none;
 }
-.order-button img {
+.order-button .arrow-img {
     width: 1.2vw;
     display: flex;
     align-items: center;
@@ -73,7 +76,29 @@
     color: #ffff;
 }
 
+/*********************** Banner css ************************/
+.banner img {
+    width: 100%;
+}
+
+/************************* Content with brand images css ************************/
+.cont-brand {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: #ffff;
+    font-family: "Inter", serif;
+    
+}
+.cont-brand span {
+    font-size: 3vw;
+    
+}
 @media only screen and (max-width:600px) {
+    .nav {
+        height: 18vw;
+        
+    }
     .about-nav h4 {
         display: none;
     }
@@ -81,17 +106,30 @@
     .franchise-button {
         display: none;
     }
-    .nav img {
-        width: 30vw;
+    .nav .logo-img {
+        width: 25vw;
+        margin-left: 12vw;
+        
     }
     .nav i {
         display: block;
     }
     .order-button {
-        /* padding: 0.5vw 1vw; */
+        padding: 2vw 2.5vw;
+        display: flex;
+        gap: 0.9vw;
+        font-size: 4vw;
+        margin-right: -6vw;
     }
-    .order-button img {
-        width: 5vw;
+    .order-button .arrow-img {
+        width: 6vw;
+    }
+    .nav i {
+        display: block;
+        color: #ffff;
+        font-size: 8vw;
+        font-weight: bolder;
+        margin-left: -4vw;
     }
     
 }
