@@ -83,18 +83,46 @@
 
 /************************* Content with brand images css ************************/
 .cont-brand {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: black;
     color: #ffff;
     font-family: "Inter", serif;
     
 }
-.cont-brand span {
-    font-size: 3vw;
-    font-family: "Black And White Picture", serif;
-    
+
+.cont-brand h2 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: center;
 }
+.cont-brand span {
+    font-size: 4vw;
+    font-family: "Black And White Picture", serif;  
+}
+
+.cont-brand p {
+    text-align: center;
+    color: #AAAAAA;
+    font-weight: bold;
+}
+
+.main_brands {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2.5vw;
+}
+
+.main_brands a {
+    display: block;
+}
+.main_brands img {
+    width: 16vw;
+    background-color: #ffff;
+    border-radius: 4px;
+    padding: 1.5vw 1.5vw;
+} 
 @media only screen and (max-width:600px) {
     .nav {
         height: 18vw;
