@@ -83,8 +83,9 @@
 
 /************************* Content with brand images css ************************/
 .cont-brand {
-    height: 400px;
+    height: 500px;
     width: 100%;
+    padding-top: 4vw;
     background-color: black;
     color: #ffff;
     font-family: "Inter", serif;
@@ -116,6 +117,13 @@
 
 .main_brands a {
     display: block;
+    padding: 0.9vw;
+    margin: 2vw;
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+    border: 1px solid #ffff;
+    border-radius: 40px;
 }
 .main_brands img {
     width: 16vw;
