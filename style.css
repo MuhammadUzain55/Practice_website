@@ -168,6 +168,48 @@
         font-weight: bolder;
         margin-left: -4vw;
     }
+
+    /************************** content with brand images media **********************/
+    .cont-brand {
+        height: 350px;
+        padding-top: 10vw;
+    }
+    .cont-brand h2 {
+        font-size: 7vw;
+    }
+    .cont-brand span {
+        font-size: 9vw;
+    }
+    .cont-brand p {
+        font-size: 4vw;
+        width: 75%;
+        
+    }
+    .main_brands {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 2.5vw;
+    }
+    
+    .main_brands a {
+        display: block;
+        padding: 0.9vw;
+        margin: 2vw;
+        text-decoration: none;
+        color: #ffff;
+        text-align: center;
+        border: 1px solid #ffff;
+        border-radius: 40px;
+    }
+    .main_brands img {
+        width: 16vw;
+        background-color: #ffff;
+        border-radius: 4px;
+        padding: 1.5vw 1.5vw;
+    } 
+    
+
     
 }
 
