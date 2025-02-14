@@ -84,6 +84,9 @@
 
 /************************* Content with brand images css ************************/
 .cont-brand {
+    display: block;
+    position: relative;
+    overflow: hidden;
     height: 500px;
     width: 100%;
     padding-top: 4vw;
@@ -119,8 +122,8 @@
 
 .main_brands a {
     display: block;
-    padding: 0.9vw;
-    margin: 2vw;
+    width: 174px;
+    height: 50px;
     text-decoration: none;
     color: #ffff;
     text-align: center;
@@ -194,9 +197,10 @@
     }
 
     .cont-brand p {
-        font-size: 4.5vw;
-        width: 85%;
-        margin-left: 25px;
+        font-size: 15px;
+        letter-spacing: 0.03em;
+        /* width: 85%; */
+        /* margin-left: 25px; */
 
     }
 
