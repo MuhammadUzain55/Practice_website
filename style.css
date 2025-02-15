@@ -122,11 +122,11 @@
 
 .main_brands a {
     display: block;
-    /* margin-top: 2vw; */
-    /* margin-left: 2.2vw; */
+    margin: auto;
+    margin-top: 24px;
     width: 174px;
     height: 50px;
-    padding-top: 10px;
+    line-height: 50px;
     text-decoration: none;
     color: #ffff;
     text-align: center;
@@ -135,10 +135,16 @@
 }
 
 .main_brands img {
-    width: 16vw;
+    /* width: 16vw;
     background-color: #ffff;
     border-radius: 4px;
-    padding: 1.5vw 1.5vw;
+    padding: 1.5vw 1.5vw; */
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
 }
 
 @media only screen and (max-width:600px) {
@@ -216,15 +222,15 @@
     }
 
     .brand2 img {
-        width: 60vw;
-        height: 80px;
+        /* width: 60vw;
+        height: 80px; */
     }
 
     .brand1 img,
     .brand3 img {
-        width: 60vw;
+        /* width: 60vw;
         height: 80px;
-        margin: 0 5px;
+        margin: 0 5px; */
 
     }
 
