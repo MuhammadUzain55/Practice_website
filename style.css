@@ -34,6 +34,11 @@
     gap: 2vw;
     color: #ffff;
 }
+.about-nav h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
 
 .nav .logo-img {
@@ -77,11 +82,6 @@
     color: #ffff;
 }
 
-/*********************** Banner css ************************/
-.banner img {
-    width: 100%;
-}
-
 /************************* Content with brand images css ************************/
 .cont-brand {
     display: block;
@@ -122,8 +122,11 @@
 
 .main_brands a {
     display: block;
+    /* margin-top: 2vw; */
+    /* margin-left: 2.2vw; */
     width: 174px;
     height: 50px;
+    padding-top: 10px;
     text-decoration: none;
     color: #ffff;
     text-align: center;
@@ -184,7 +187,7 @@
 
     /************************** content with brand images media **********************/
     .cont-brand {
-        height: 350px;
+        height: 100vw;
         padding-top: 10vw;
     }
 
@@ -206,6 +209,7 @@
 
     .main_brands {
         margin-top: 10vw;
+        text-align: center;
     }
     .brand2 {
         text-align: center;
@@ -213,20 +217,20 @@
 
     .brand2 img {
         width: 60vw;
-        height: 20vw;
+        height: 80px;
     }
 
     .brand1 img,
     .brand3 img {
         width: 60vw;
-        height: 20vw;
+        height: 80px;
         margin: 0 5px;
 
     }
 
     .main_brands a {
-        padding: 15px;
         margin: 5vw;
+        text-align: center;
     }
 
     .main_brands img {}
