@@ -87,9 +87,11 @@
     display: block;
     position: relative;
     overflow: hidden;
-    height: 500px;
+    height: 450px;
     width: 100%;
-    padding-top: 4vw;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    /* padding-top: 4vw; */
     background-color: black;
     color: #ffff;
     font-family: "Inter", serif;
@@ -111,6 +113,7 @@
     text-align: center;
     color: #AAAAAA;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .main_brands {
@@ -141,7 +144,7 @@
     padding: 1.5vw 1.5vw; */
     width: 100%;
     object-fit: contain;
-    height: 100%;
+    height: 60%;
     background-color: #ffff;
     padding: 0px 19px;
     border-radius: 3px;
@@ -193,8 +196,12 @@
 
     /************************** content with brand images media **********************/
     .cont-brand {
-        height: 100vw;
-        padding-top: 10vw;
+        /* height: 100vw; */
+        /* padding-top: 10vw; */
+        padding: 32px 15px 0px 15px;
+        padding-bottom: 32px;
+        margin-bottom: 0px;
+        margin-top: 10px;
     }
 
     .cont-brand h2 {
@@ -208,13 +215,13 @@
     .cont-brand p {
         font-size: 15px;
         letter-spacing: 0.03em;
+        margin-bottom: 14px;
         /* width: 85%; */
         /* margin-left: 25px; */
 
     }
 
     .main_brands {
-        margin-top: 10vw;
         text-align: center;
     }
     .brand2 {
