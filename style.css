@@ -82,12 +82,16 @@
     color: #ffff;
 }
 
+.banner-btn {
+    margin-bottom: 0;
+}
+
 /************************* Content with brand images css ************************/
 .cont-brand {
     display: block;
     position: relative;
     overflow: hidden;
-    height: 450px;
+    height: 500px;
     width: 100%;
     padding: 0px 15px 0px 15px;
     padding-top: 70px;
@@ -138,7 +142,6 @@
 
 .main_brands img {
     width: 16vw;
-    /* width: 100%; */
     object-fit: contain;
     height: 80%;
     background-color: #ffff;
@@ -193,7 +196,6 @@
     /************************** content with brand images media **********************/
     .cont-brand {
         height: auto;
-        /* padding-top: 10vw; */
         padding: 32px 15px 0px 15px;
         padding-bottom: 32px;
         margin-bottom: 0px;
@@ -212,9 +214,6 @@
         font-size: 15px;
         letter-spacing: 0.03em;
         margin-bottom: 14px;
-        /* width: 85%; */
-        /* margin-left: 25px; */
-
     }
 
     .main_brands {
@@ -241,9 +240,4 @@
         margin-left: 40px;
         text-align: center;
     }
-
-    .main_brands img {}
-
-
-
 }
