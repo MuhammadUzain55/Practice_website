@@ -91,7 +91,6 @@
     width: 100%;
     padding: 0px 15px 0px 15px;
     padding-top: 70px;
-    /* padding-top: 4vw; */
     background-color: black;
     color: #ffff;
     font-family: "Inter", serif;
@@ -138,13 +137,10 @@
 }
 
 .main_brands img {
-    /* width: 16vw;
-    background-color: #ffff;
-    border-radius: 4px;
-    padding: 1.5vw 1.5vw; */
-    width: 100%;
+    width: 16vw;
+    /* width: 100%; */
     object-fit: contain;
-    height: 60%;
+    height: 80%;
     background-color: #ffff;
     padding: 0px 19px;
     border-radius: 3px;
@@ -196,7 +192,7 @@
 
     /************************** content with brand images media **********************/
     .cont-brand {
-        /* height: 100vw; */
+        height: auto;
         /* padding-top: 10vw; */
         padding: 32px 15px 0px 15px;
         padding-bottom: 32px;
@@ -229,20 +225,20 @@
     }
 
     .brand2 img {
-        /* width: 60vw;
-        height: 80px; */
+        width: 250px;
+        height: 100px;
     }
 
     .brand1 img,
     .brand3 img {
-        /* width: 60vw;
-        height: 80px;
-        margin: 0 5px; */
+        width: 250px;
+        height: 100px;
 
     }
 
     .main_brands a {
         margin: 5vw;
+        margin-left: 40px;
         text-align: center;
     }
 
