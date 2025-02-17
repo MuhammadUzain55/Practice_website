@@ -34,6 +34,7 @@
     gap: 2vw;
     color: #ffff;
 }
+
 .about-nav h4 {
     font-size: 1em;
     font-weight: bold;
@@ -149,6 +150,16 @@
     border-radius: 3px;
 }
 
+.franchises {
+    background-color: #0F0F0F;
+}
+
+.franchises h1 {
+    font-family: "Black And White Picture", serif;
+    font-size: 70px;
+    color: #ffff;
+}
+
 @media only screen and (max-width:600px) {
     .nav {
         height: 18vw;
@@ -219,6 +230,7 @@
     .main_brands {
         text-align: center;
     }
+
     .brand2 {
         text-align: center;
     }
